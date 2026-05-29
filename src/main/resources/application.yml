@@ -1,0 +1,11 @@
+server:
+  port: 8081 # We use 8081 so it doesn't conflict with other default services on 8080
+
+spring:
+  application:
+    name: ingestion-service
+
+logging:
+  level:
+    com.veritassaas: INFO
+    org.springframework.web: INFO
